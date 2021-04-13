@@ -1,0 +1,11 @@
+note over browser
+user clicks on Save
+end note
+
+browser-server HTTP POST httpsstudies.cs.helsinki.fiexampleappnew_note_spa
+server--browser 201 Created {messagenote created}
+
+note over browser
+browser executes the event handler
+that appends the new note to the list
+end note
